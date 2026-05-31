@@ -1,0 +1,6 @@
+Final Acc: 0.2222222222222222
+Final F1: 0.13333333333333333
+Output dir: /mnt/c/Users/16248/Desktop/大学课程/541 Practical Code/bert-scl-prototype-graph/custom/2026-03-30 23-30-14
+Train file: /mnt/c/Users/16248/Desktop/大学课程/541 Practical Code/JointCL-main/custom_jointcl_data/train.csv
+Dev file: /mnt/c/Users/16248/Desktop/大学课程/541 Practical Code/JointCL-main/custom_jointcl_data/dev.csv
+Test file: /mnt/c/Users/16248/Desktop/大学课程/541 Practical Code/JointCL-main/custom_jointcl_data/test.csv

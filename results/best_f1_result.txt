@@ -1,0 +1,19 @@
+Tag: best_f1
+Accuracy: 0.2222222222222222
+Macro F1: 0.13333333333333333
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0   0.000000  0.000000  0.000000         3
+           1   0.000000  0.000000  0.000000         3
+           2   0.285714  0.666667  0.400000         3
+
+    accuracy                       0.222222         9
+   macro avg   0.095238  0.222222  0.133333         9
+weighted avg   0.095238  0.222222  0.133333         9
+
+Confusion Matrix:
+[[0 1 2]
+ [0 0 3]
+ [0 1 2]]

@@ -1,0 +1,19 @@
+Tag: best_acc
+Accuracy: 0.3333333333333333
+Macro F1: 0.1818181818181818
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0   0.000000  0.000000  0.000000         3
+           1   0.000000  0.000000  0.000000         3
+           2   0.375000  1.000000  0.545455         3
+
+    accuracy                       0.333333         9
+   macro avg   0.125000  0.333333  0.181818         9
+weighted avg   0.125000  0.333333  0.181818         9
+
+Confusion Matrix:
+[[0 1 2]
+ [0 0 3]
+ [0 0 3]]
