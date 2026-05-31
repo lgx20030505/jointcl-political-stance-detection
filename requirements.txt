@@ -1,0 +1,8 @@
+torch
+transformers
+scikit-learn
+numpy
+pandas
+tqdm
+faiss-cpu
+tensorboardX
