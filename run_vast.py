@@ -427,7 +427,7 @@ if __name__ == "__main__":
     parser.add_argument('--model_name', default='bert-scl-prototype-graph', type=str, required=False)
     parser.add_argument('--type', default=2, type=int, required=False)
     parser.add_argument('--dataset', default='custom', type=str, required=False)
-    parser.add_argument('--output_par_dir', default=r'/mnt/c/Users/16248/Desktop/大学课程/541 Practical Code', type=str)
+    parser.add_argument('--output_par_dir',default='./outputs',type=str)
     parser.add_argument('--polarities', default=["left", "right", "neutral"], nargs='+', required=False)
     parser.add_argument('--optimizer', default='adam', type=str, required=False)
     parser.add_argument('--temperature', default=0.07, type=float, required=False)
@@ -471,10 +471,9 @@ if __name__ == "__main__":
     opt.output_par_dir = r'/mnt/c/Users/16248/Desktop/大学课程/541 Practical Code'
     opt.polarities = ["left", "right", "neutral"]
 
-    opt.train_dir = '/mnt/c/Users/16248/Desktop/大学课程/541 Practical Code/JointCL-main/custom_jointcl_data/train.csv'
-    opt.dev_dir = '/mnt/c/Users/16248/Desktop/大学课程/541 Practical Code/JointCL-main/custom_jointcl_data/dev.csv'
-    opt.test_dir = '/mnt/c/Users/16248/Desktop/大学课程/541 Practical Code/JointCL-main/custom_jointcl_data/test.csv'
-
+    opt.train_dir = './custom_jointcl_data/train.csv'
+    opt.dev_dir = './custom_jointcl_data/dev.csv'
+    opt.test_dir = './custom_jointcl_data/test.csv'
     opt.epochs = 5
     opt.batch_size = 2
     opt.eval_batch_size = 4
